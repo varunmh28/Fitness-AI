@@ -37,6 +37,7 @@ function Layout() {
         options={{
             title: 'Active Workout',
             headerShown: false,
+            href :null,
             tabBarStyle: {
                 display: 'none',
             },
@@ -53,7 +54,7 @@ function Layout() {
         }}
         />
 
-        <Tabs.Screen name='profile'
+        <Tabs.Screen name='profile/index'
         options={{
             title: 'Profile',
             headerShown: false,
